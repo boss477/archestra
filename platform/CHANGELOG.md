@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.4.0-rc.27](https://github.com/archestra-ai/archestra/compare/platform-v1.4.0-rc.26...platform-v1.4.0-rc.27) (2026-09-28)
+
+
+### Features
+
+* **connection:** let Claude Desktop import Claude.ai history after proxy setup ([#8263](https://github.com/archestra-ai/archestra/issues/8263)) ([76f9b22](https://github.com/archestra-ai/archestra/commit/76f9b222de4e3e82c497936753316c2572185132))
+
+
+### Bug Fixes
+
+* **api:** distinguish HTTP connection failures from database outages ([#8255](https://github.com/archestra-ai/archestra/issues/8255)) ([8659662](https://github.com/archestra-ai/archestra/commit/8659662ac0ce28acb0fdba99ec8473e5af91d551))
+* **chat:** use model sampling defaults for tool repair ([#8256](https://github.com/archestra-ai/archestra/issues/8256)) ([e0e0b33](https://github.com/archestra-ai/archestra/commit/e0e0b33e151bb320211abf8209287c54c41e0c06))
+* **connection:** pass utility CLI commands through wrappers ([#8262](https://github.com/archestra-ai/archestra/issues/8262)) ([ed5e625](https://github.com/archestra-ai/archestra/commit/ed5e625b5417d20041a3eb1f3efbd463c9e902d4))
+* keep OpenAPPA recovery tools assigned to agents ([#8260](https://github.com/archestra-ai/archestra/issues/8260)) ([ac947de](https://github.com/archestra-ai/archestra/commit/ac947de6412589a6cdb0524f8864274510a1e567))
+* **mcp:** skip hosted apps during upstream listings ([#8259](https://github.com/archestra-ai/archestra/issues/8259)) ([63245a9](https://github.com/archestra-ai/archestra/commit/63245a9a413d87c15dcdea0a9a549cacfdf6299b))
+* **proxy:** return 503 for preserved connection timeouts ([#8258](https://github.com/archestra-ai/archestra/issues/8258)) ([5aa9925](https://github.com/archestra-ai/archestra/commit/5aa99256a210347b708d62db15ee06cd489a226f))
+* **proxy:** round-trip null tool calls through vLLM ([#8257](https://github.com/archestra-ai/archestra/issues/8257)) ([43e5cd8](https://github.com/archestra-ai/archestra/commit/43e5cd8d1113344259383112450e777148ada344))
+
+
+### Miscellaneous Chores
+
+* add Connect tab to virtual key dialogs ([#8261](https://github.com/archestra-ai/archestra/issues/8261)) ([3ac1690](https://github.com/archestra-ai/archestra/commit/3ac1690063355e4b6acef2831a4d7fa1f6213607))
+
 ## [1.4.0-rc.26](https://github.com/archestra-ai/archestra/compare/platform-v1.4.0-rc.25...platform-v1.4.0-rc.26) (2026-09-28)
 
 
